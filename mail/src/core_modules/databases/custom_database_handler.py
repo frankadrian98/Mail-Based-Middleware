@@ -93,6 +93,7 @@ class DatabaseHandler:
         
         if mail.username not in cls.database['Mails'].keys() and mail.username not in cls.database['Credentials'].keys():
             cls.database['Mails'][mail.username] = list()
+            cls.database['Credentials'][mail.username] = 'pass'
             
 
         mail_as_dict = dict()
