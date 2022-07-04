@@ -1,0 +1,36 @@
+To: frank@gmail.com
+senders_email: camilo@gmail.com
+receiving_date_time: 2020-03-11 16:20:44
+subject: sub
+message: mail
+.
+To: frank@gmail.com
+senders_email: camilo@gmail.com
+receiving_date_time: 2022-07-02 03:24:14
+subject: test
+message: this is a test
+.
+To: frank@gmail.com
+senders_email: aldo@gmail.com
+receiving_date_time: 2022-07-03 05:54:05
+subject: test
+message: new test
+.
+To: frank@gmail.com
+senders_email: aldo@gmail.com
+receiving_date_time: 2022-07-03 05:57:47
+subject: test
+message: test2
+.
+To: frank@gmail.com
+senders_email: aldo@gmail.com
+receiving_date_time: 2022-07-03 05:59:52
+subject: test
+message: test3
+.
+To: frank@gmail.com
+senders_email: aldo@gmail.com
+receiving_date_time: 2022-07-03 05:59:52
+subject: test
+message: test3
+.

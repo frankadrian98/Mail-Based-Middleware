@@ -1,0 +1,6 @@
+To: camilo@gmail.com
+senders_email: frank@gmail.com
+receiving_date_time: 2020-03-07 13:44:25
+subject: subject
+message: message.
+.

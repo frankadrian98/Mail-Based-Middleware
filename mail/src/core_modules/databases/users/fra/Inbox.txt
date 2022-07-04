@@ -1,0 +1,30 @@
+To: fra@gmail.com
+senders_email: camilo@gmail.com
+receiving_date_time: 2022-07-03 16:53:33
+subject: test
+message: This is a test.
+.
+To: fra@gmail.com
+senders_email: camilo@gmail.com
+receiving_date_time: 2022-07-03 22:16:12
+subject: test
+message: this is final test?
+.
+To: fra@gmail.com
+senders_email: frank@gmail.com
+receiving_date_time: 2022-07-03 22:18:22
+subject: new
+message: newtest
+.
+To: fra@gmail.com
+senders_email: camilo@gmail.com
+receiving_date_time: 2022-07-03 22:27:13
+subject: xxxx
+message: yyyy
+.
+To: fra@gmail.com
+senders_email: camilo@gmail.com
+receiving_date_time: 2022-07-03 22:29:20
+subject: last
+message: last
+.

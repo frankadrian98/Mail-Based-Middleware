@@ -1,0 +1,6 @@
+To: ernesto@gmail.com
+senders_email: frank@gmail.com
+receiving_date_time: 2022-07-03 17:00:07
+subject: new
+message: this is new
+.
