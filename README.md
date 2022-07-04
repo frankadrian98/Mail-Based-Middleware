@@ -17,21 +17,21 @@ El proyecto cuenta de tres estructuras fundamentales las cuales se complementan 
 # Funcionamiento 
 
 Se levantan nodos chord como cantidad de servidores Smtp con el siguiente comando
-
+```
 python chord.py -id 2 -addr 127.0.0.1:5000 -bits 3 
 
 python chord.py -id 3 -addr 127.0.0.2:5000 -bits 3 -entry_addr 127.0.0.1:5000
-
+```
 Esto mantiene los nodos enviándose información y actualizando de manera constante. Al no existir un líder y estar repartida las responsabilidades los nodos no tendrán manera de determinar si su sucesor o antecesor están correctos a menos que los verifique 
-
+```
 python mailclient.py -sp <puerto_smtp> -pp <puerto_pop>
-
+```
 No se le pasa ip al cliente ya que este recoge los ip de los servidores de una lista preconfigurada en ip_addresses.txt.
-
+```
 python popserver.py -ip <ip_pop> -p <puerto_pop>
 
 python smtpserver.py -ip <ip_smtp> -p <puerto_smtp>
-
+```
 Los ip que se le pasan al popserver y al smtpserver deben estar en los configurados en ip_adresses.txt y los puertos deben ser iguales para cada servidor pop y para cada servidor smtp respectivamente, para que no haya conflictos con el cliente
 
 # Especificaciones
